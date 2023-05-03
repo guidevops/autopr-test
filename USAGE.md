@@ -13,7 +13,7 @@ Before getting started, ensure you have:
 
 Follow these steps to set up AutoPR in your GitHub repository:
 
-1. Create a new file in your repository named .github/workflows/autopr.yml and add the contents from [the AutoPR-template workflow YAML file](https://github.com/irgolic/AutoPR-template/blob/main/.github/workflows/autopr.yml).
+1. Create a new file in your repository named .github/workflows/autopr.yml and add the contents from [the AutoPR-template workflow YAML file](https://github.com/guidevops/autopr-test/blob/main/.github/workflows/autopr.yml).
 2. Configure the action as necessary (see [Customization](https://github.com/guidevops/AutoPR/blob/main/USAGE.md#customization) below).
 3. In your GitHub repository settings, navigate to Secrets and variables -> Actions and add your OpenAI API key as OPENAI_API_KEY.
 4. In your GitHub repository settings, go to Actions -> General and scroll down to Workflow permissions. Enable Allow GitHub Actions to create and approve pull requests.
